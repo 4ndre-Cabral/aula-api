@@ -56,4 +56,11 @@ public class EstudanteController {
 	public ResponseEntity<String> removerEstudante(@PathVariable Long id) {
 		return estudanteService.removerEstudante(id);
 	}
+	
+
+	@GetMapping("/naoAvaliaram")
+	public List<Estudante> buscarEstudadesQueNaoAvaliaram() {
+		
+		return estudanteService.buscarEstudadesQueNaoAvaliaram();
+	}
 }

@@ -13,7 +13,7 @@ import org.springframework.util.StringUtils;
 import org.springframework.web.client.HttpServerErrorException;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.example.demo.controller.config.FileStorageProperties;
+import com.example.demo.config.FileStorageProperties;
 import com.example.demo.exception.ArquivoNaoEncontradoException;
 import com.example.demo.exception.UploadArquivoException;
 
